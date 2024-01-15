@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.forecast {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+.forecast:before {
+  content: '';
+  background: url('../assets/wavepic.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
+}
+
+.forecast .searchbar {
+  text-align: center;
+  padding: 1rem;
+}
+
+.forecast input {
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.1);
+  color: #080808;
+}
+
+::placeholder {
+  color: #3f3f3f;
+}
+
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.forecast .top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.forecast .description {
+  position: relative;
+  right: -90%;
+  transform-origin: 0 0;
+  transform: rotate(269deg);
+  margin-top: 10px;
+}
+
+.forecast .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgb(248, 246, 246);
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+  .searchbar {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .top {
+    text-align: center;
+  }
+  
+  .temp h1 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .description p {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: #fff;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  

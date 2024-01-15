@@ -1,0 +1,42 @@
+
+.shore-point-container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shore-point-container h2 {
+  margin-bottom: 10px;
+}
+
+
+.shore-point-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for each button */
+.shore-point-container li {
+  margin-bottom: 10px; 
+}
+
+
+.shore-point-container a {
+  font-size: 16px;
+  margin-bottom: 5px; 
+  display: block; 
+  white-space: nowrap;
+}
+
+.shore-point-container a:hover {
+  background-color: #ddd; 
+  border-radius: 5px;
+}
+
+.button-image {
+  width: 20px;
+  height: auto; 
+  margin-right: 8px; 
+}
