@@ -12,7 +12,7 @@ function Home() {
       </video>
       <div className="headerContainer">
         <div className="h2-container">
-        <h2>Surf Scout</h2>
+        <h3>Surf Scout</h3>
         </div>
         <Link to='/Search'>
           <button>Begin Search</button>

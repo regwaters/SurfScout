@@ -1,57 +1,51 @@
-
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-  }
-  
-  .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .login-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  .login-content .form-group {
-    margin-bottom: 20px;
-  }
-  
-  .login-content label {
-    display: block;
-    margin-bottom: 8px;
-    color: #555;
-  }
-  
-  .login-content input {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .login-content button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .login-content button:hover {
-    background-color: #45a049;
-  }
-  
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Increased shadow for a more prominent effect */
+  max-width: 400px; /* Limiting the width for better readability */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px; /* Added margin to separate it from other elements */
+}
+
+.login-content .form-group {
+  margin-bottom: 20px;
+}
+
+.login-content label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.login-content input {
+  width: 100%;
+  padding: 12px; /* Increased padding for better input field appearance */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px; /* Slightly increased border radius */
+  transition: border-color 0.3s ease; /* Added smooth transition for better interaction */
+}
+
+.login-content input:focus {
+  outline: none; /* Removing default focus outline */
+  border-color: #4caf50; /* Highlighting input field on focus */
+}
+
