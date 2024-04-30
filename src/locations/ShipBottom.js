@@ -1,6 +1,6 @@
 import React from 'react';
 import SB from '../forecasts/SB';
-import '../stlyes/SB.css';
+import '../styles/SB.css';
 
 const ShipBottom = () => {
   return (

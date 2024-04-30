@@ -13,7 +13,7 @@ const SignIn = () => {
 
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
-        navigate("/favorites"); 
+        navigate("/search"); 
         console.log(userCredential);
       })
       .catch((error) => {
